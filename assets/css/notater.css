@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+
+
+
+body {
+
+    font-size: 18px;
+    font-family: 'Patrick Hand', Verdana, sans-serif;
+    background-color:#c7ad88;
+
+}
+
+
+
+h1 {
+
+    font-size: 3rem;
+
+}
+
+
+
+input {
+
+    width: 500px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background-color:#f6f1ed;
+    border: solid 2px #252839;
+    color:#252839;
+
+}
+
+
+
+.notesblok {
+
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px 30px;
+    background-repeat: repeat;
+    border-radius: 5px;
+    box-shadow: 20px 20px 50px 15px grey;
+    background-color:#f6f1ed;
+
+}
+
+
+
+.note {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 3px dashed #252839;
+    color: #111;
+    font-size: 1.5rem;
+
+}
+
+
+
+.note p {
+
+    padding-right: 20px;
+    width: 80%;
+
+}
+
+
+
+.note div {
+
+    width: 10%;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+
+}
